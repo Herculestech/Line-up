@@ -9,7 +9,7 @@
 .GK{
  bottom: 585px;
 left: 0; 
-transition: bottom 5s;
+/* transition: bottom 5s; */
 /* animation-duration: 2.5s; */
 
 }
@@ -62,7 +62,7 @@ transition: bottom 5s;
 .field {
     animation-name:color ;
     animation-duration: 15s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-delay: 0ms;
     /* width: 65%; */
     /* margin: auto;

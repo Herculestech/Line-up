@@ -34,6 +34,29 @@ class Club {
  let myClub = new Club(teamName, goalKeeper, leftBack, centerBack1, centerBack2, rightBack, centralMidfielder, defensiveMidfielder, attackingMidfielder,leftWingForward, centerForward, rightWingForward)
 
 function pick11() {
+    if (g_K.value==""){
+        alert("select  Goalkeeper")
+    }else if (L_B.value==""){
+        alert("select  Leftback")
+    }else if (C_B1=="") {
+        alert("select CB1")
+    }else if (C_B2=="") {
+        alert("select CB2")
+     }else if (R_B=="") {
+        alert("select Rightback")
+     }else if (C_M=="") {
+        alert("select Central Midlfielder")
+     }else if (D_M=="") {
+        alert("select Defensive Midlfielder")
+     }else if (A_M=="") {
+        alert("select Attacking Midlfielder")
+     }else if (L_WF=="") {
+        alert("select Left Wing Forward")
+     }else if (R_WF=="") {
+        alert("select Right Wing Forward")
+     }else if (C_F=="") {
+        alert("select Center Forward")
+     }else{
     showface.style.display ="none"
     showLine.style.display="block"
     showface2.style.display="none"
@@ -59,4 +82,4 @@ function pick11() {
      `
     
  }
-
+}
