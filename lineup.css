@@ -1,0 +1,89 @@
+#pitch {
+    position: relative;
+    z-index: 1;
+}
+.player{
+    position: relative;
+    z-index: 20;
+}
+.GK{
+ bottom: 585px;
+left: 0; 
+transition: bottom 5s;
+/* animation-duration: 2.5s; */
+
+}
+/* @keyframes Gk {
+   from {
+        bottom:0;
+   }
+   to {
+        bottom: 585px;
+   }
+} */
+#Lb{
+    bottom: 535px;
+    left: 140px;
+}
+#Cb1{
+    bottom: 650px;
+    right: 50px;
+}
+#Cb2{
+    bottom: 720px;
+    left: 50px;
+}
+#Rb{
+    bottom: 750px;
+    right: 140px;
+}
+#Cm{
+    bottom: 689px;
+    right: 120px;
+}
+#Am{
+    bottom: 835px;
+    left: 110px;
+}
+#Dm{
+    bottom: 850px;
+}
+#Lwf{
+    bottom: 760px;
+    left: 130px;
+}
+#Rwf{
+    bottom:905px;
+    right: 130px;
+}
+#Cf{
+    bottom: 775px;
+}
+.field {
+    animation-name:color ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+    /* width: 65%; */
+    /* margin: auto;
+    height: 100vh; */
+    filter:saturate(50%) contrast(150%);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    position: relative;
+}
+@keyframes color {
+    0% {
+        /* filter:saturate(0%) ; */
+        transform: rotatex(90deg);
+    }
+
+    50%{
+        /* filter:saturate(50%) contrast(150%); */
+        transform: rotatex(0);
+    }
+
+    100%{
+        /* filter: contrast(100%); */
+    }
+}
